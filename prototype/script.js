@@ -24,7 +24,7 @@ function Calculer(x,y,operation){
 
 
 // Présentation
-function ClickNumber(number){
+function AddingNombre(number){
     if(x == undefined){
         if(xString == undefined) xString = '';
         xString += number;
