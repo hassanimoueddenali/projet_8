@@ -39,7 +39,7 @@ function ClickNumber(number){
 
 function Afficher(number){
 
-    let afficheur = document.getElementById("afficheur");
+    let afficheur = document.getElementById("prg");
     afficheur.value = "";
     
     if(x != undefined && y != undefined && operation != undefined){
@@ -82,7 +82,7 @@ function Init(){
     xString = undefined;
     yString = undefined;
     operation = undefined;
-    let afficheur = document.getElementById("afficheur");
+    let afficheur = document.getElementById("prg");
     
     afficheur.value = "";
 }
